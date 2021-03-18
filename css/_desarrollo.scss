@@ -1,0 +1,131 @@
+.bannerDesarrollo {
+  background-image: url("../img/bannerDesarrollo.png");
+  background-position: bottom;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  .boton {
+    padding: 10px 20px;
+    background-color: $verdeOsc;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 60px;
+    margin-bottom: 100px;
+  }
+}
+.subtitulo_Ver {
+  color: $verdeOsc;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.economia-circular {
+  position: relative;
+  .autor {
+    color: $verdeCla;
+    font-style: italic;
+    font-weight: 300;
+  }
+  .diferencia {
+    position: relative;
+    background-color: $gris;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .ilustraciones {
+    .imagen {
+      width: 100%;
+      display: flex;
+      img {
+        width: 70%;
+        margin: 50px 0;
+      }
+    }
+    .uno{
+      justify-content: start;
+    }
+    .dos{
+      justify-content: space-between;
+    }
+  }
+  .referentes {
+    position: relative;
+    background-color: $gris;
+    padding-top: 100px;
+    .imagen {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 80%;
+        margin: 50px 0;
+      }
+    }
+    table{
+      background-color: #a9d0462d;
+      width: 80%;
+      margin: 0 auto;
+      th{
+        font-size: 30px;
+        background-color: #00a85a85;
+        color: white;
+      }
+      td{
+        font-size: 1.25rem;
+      }
+    }
+    
+    
+  }
+}
+.izq {
+  text-align: start;
+}
+.der{
+  text-align: end;
+}
+.bioeconomia{
+  padding: 0;
+  .col-12 {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center !important;
+    .parrafo{
+      text-align: start;
+    }
+  }
+  .imagen img{
+    max-height: 440px;
+  }
+  .objetivos{
+    position: relative;
+    padding-top: 100px;
+    background-color: $gris;
+    
+  }
+}
+.negocios{
+  ul {
+    list-style: url('../img/desa7.svg');
+    li{
+      justify-content: start;
+      align-items: center;
+    }
+  }
+  .img{
+    display: flex;
+    justify-content: end;
+    align-items: top;
+    .imagen{
+      width: 60%;
+      max-height: 400px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}
